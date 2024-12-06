@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgb(195, 239, 255);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+.box{
+    background-color: rgb(206, 239, 251);
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 50px;
+}
+#allbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    margin-bottom: 5px;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h5{
+    color: black;
+    margin-bottom: 5px;
+}
+p{
+    font-size:large;
+    color:black;
+    margin-bottom: 5px;
+}
+#del{
+    background-color:#ffabab ;
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#ad{
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(81, 176, 211);
+    font-size: 30px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px; 
+    cursor: pointer;
+}
+#over{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    display: none;
+}
+#pop{
+    position: absolute;
+    z-index: 3;
+    background-color: rgb(81, 176, 211);
+    color: black;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    left: 30%;
+    top: 30%;
+    display: none;
+}
+#add,#cancel{
+    padding: 4px;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+}
+form input,textarea{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    outline: none ;
+}
+.btn{
+    display: flex;
+    justify-content: flex-start;
+}
+form button{
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
+    <link rel="stylesheet" href="Task.css">
+    <link rel="icon" href="to do pic.jpg">
+</head>
+<body>
+    <header>
+        <h1><strong>TO DO LIST</strong></h1>
+    </header>
+    <div id="allbox">
+        
+    </div> 
+    <button id="ad">+</button>
+    <div id="over"></div>
+    <div id="pop">
+        <h2 style="color: black;">Add Task</h2>
+        <form id="form" class="fom"  action="/add-task" method="POST">
+            
+            <input type="text" placeholder="Title" id="Title" name="Title" required>
+            
+            <input type="text" placeholder="Task" id="taskk" name="taskk" required>
+        
+            <textarea name="descriptions" id="descriptions" placeholder="Short descriptions"></textarea name="descriptions" required>
+            <div class="btn">
+                <button id="add" type="submit" >ADD</button>
+                <button type="button" id="cancel" >CANCEL</button>
+            </div>
+        </form>
+    </div>
+    <script src="Task.js">
+    </script>
+    <script src="next.js"></script>
+</body>
+</html>
